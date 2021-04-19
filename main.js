@@ -1,45 +1,39 @@
 
-// První příklad - vypiš vzestupně čísla od 0 do 10
+// První příklad
 
 console.log('První příklad - Vypiš vzestupně čísla od 0 do 10');
 
 
-/*for (let i = 1; i<=10; i = i + 1) {
+/*for (let i = 0; i<=10; i = i + 1) {
 
     console.log(i);
     }
 */
 
-let i = 1;
+let i = 0;
 while (i <= 10) {
     console.log(i++);
     
 }
 
-// Druhý příklad - zkopíruj předchozí příklad
-// a vyzkoušej, jaký je rozdíl mezi <= a <
-// v podmínce uvnitř cyklu
+// Druhý příklad 
 
 console.log('Druhý příklad - vyzkoušej, jaký je rozdíl mezi <= a<');
-//TADY NAPIS CYKLUS
 
-/*for (let i = 1; i<10; i = i + 1) {
+/*for (let i = 0; i<10; i = i + 1) {
 
     console.log(i);
 }
 */
-let j = 1;
+let j = 0;
 while (j < 10) {
     console.log(j++);
     
 }
 
 
-// Třetí příklad - vypiš sestupně čísla od 10 do 0
+// Třetí příklad
 console.log('Třetí příklad - sestupná řada 10 - 0');
-
-//TADY NAPIS CYKLUS
-
 
 
 /* for (let i = 10; i>=0; i = i - 1) {
